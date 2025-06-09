@@ -1,0 +1,59 @@
+{
+  "Executive_Summary": {
+    "Research_Objective": "Predict future US-China tariff impacts on electronics trade",
+    "Models_Used": 4,
+    "Forecast_Period": "2025-2027",
+    "Expected_Trade_Value": "$89552445337.4B annually",
+    "Confidence_Level": "Low",
+    "Key_Risk": "30.0% potential decline",
+    "Key_Opportunity": "12.5% potential increase"
+  },
+  "Model_Performance": {
+    "Model 1 (Time Series)": {
+      "Method": "ARIMA/SARIMAX",
+      "Target": "US-China Electronics Trade",
+      "Key_Finding": "Forecast: $285939687557.8B average (2025-2027)",
+      "Confidence": "Medium - limited historical data"
+    },
+    "Model 2 (Multi-Country)": {
+      "Method": "Random Forest Panel Regression",
+      "Target": "Bilateral Trade Flows (6 countries)",
+      "Key_Finding": "Tariff escalation reduces trade intensity by ~20%",
+      "Confidence": "Medium - cross-country patterns"
+    },
+    "Model 3 (Economic Impact)": {
+      "Method": "VAR + Machine Learning",
+      "Target": "GDP Growth & Unemployment",
+      "Key_Finding": "Tariffs involve GDP-employment trade-offs",
+      "Confidence": "Low - small sample size"
+    },
+    "Model 4 (Ensemble)": {
+      "Method": "Probability-weighted Integration",
+      "Target": "Comprehensive Trade Forecast",
+      "Key_Finding": "Expected: $89552445337.4B \u00b1 $49154778490.0B",
+      "Confidence": "Low - integrated approach"
+    }
+  },
+  "Scenarios": {
+    "Optimistic": [
+      105308356536.33455,
+      105385200700.3135,
+      105371272907.66075
+    ],
+    "Baseline": [
+      93615950052.90634,
+      93684262195.01471,
+      93671880807.78001
+    ],
+    "Pessimistic": [
+      65511128118.970856,
+      65558931997.382744,
+      65550267676.345955
+    ]
+  },
+  "Recommendations": {
+    "Policy": "Graduated tariff adjustments with sentiment monitoring",
+    "Business": "Supply chain diversification and flexibility",
+    "Research": "Enhanced data collection and real-time monitoring"
+  }
+}

@@ -1,0 +1,6 @@
+country_name,year,avg_polarity,negative,positive,neutral,avg_electronics_relevance,avg_trade_relevance,avg_us_china_relevance
+China,2024,0.0,0,0,1,2.0,0.0,0.0
+China,2025,-0.0551,1,0,4,0.0,0.4,1.0
+United States,2023,-0.0405,2,2,1,2.6,0.0,2.6
+United States,2024,0.035003124999999996,10,16,6,0.875,0.78125,1.8125
+United States,2025,0.016164601769911507,90,100,36,0.6991150442477876,1.424778761061947,1.7123893805309736
