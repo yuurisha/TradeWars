@@ -3,10 +3,10 @@
     "Research_Objective": "Predict future US-China tariff impacts on electronics trade",
     "Models_Used": 4,
     "Forecast_Period": "2025-2027",
-    "Expected_Trade_Value": "$89552445337.4B annually",
+    "Expected_Trade_Value": "$260693147768.5B annually",
     "Confidence_Level": "Low",
-    "Key_Risk": "30.0% potential decline",
-    "Key_Opportunity": "12.5% potential increase"
+    "Key_Risk": "29.0% potential decline",
+    "Key_Opportunity": "11.7% potential increase"
   },
   "Model_Performance": {
     "Model 1 (Time Series)": {
@@ -30,25 +30,25 @@
     "Model 4 (Ensemble)": {
       "Method": "Probability-weighted Integration",
       "Target": "Comprehensive Trade Forecast",
-      "Key_Finding": "Expected: $89552445337.4B \u00b1 $49154778490.0B",
+      "Key_Finding": "Expected: $260693147768.5B \u00b1 $143117554413.7B",
       "Confidence": "Low - integrated approach"
     }
   },
   "Scenarios": {
     "Optimistic": [
-      105308356536.33455,
-      105385200700.3135,
-      105371272907.66075
+      304128389033.158,
+      304350313413.7693,
+      304310090232.23285
     ],
     "Baseline": [
-      93615950052.90634,
-      93684262195.01471,
-      93671880807.78001
+      272389338476.75705,
+      272588102674.39984,
+      272552077212.11075
     ],
     "Pessimistic": [
-      65511128118.970856,
-      65558931997.382744,
-      65550267676.345955
+      193404422042.71918,
+      193545550454.65656,
+      193519971319.46793
     ]
   },
   "Recommendations": {

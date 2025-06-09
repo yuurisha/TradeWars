@@ -1,63 +1,63 @@
 {
   "model_performance": {
     "Random Forest": {
-      "train_r2": 0.9522203539330554,
-      "train_mae": 0.28915087580441273
+      "train_r2": 0.958518992557571,
+      "train_mae": 0.27619339142569016
     },
     "Gradient Boosting": {
-      "train_r2": 0.9998362309881073,
-      "train_mae": 0.02293165285903474
+      "train_r2": 0.9997792762944474,
+      "train_mae": 0.025981046267617023
     },
     "Linear Regression": {
-      "train_r2": 0.7469879179212504,
-      "train_mae": 0.6221008662115622
+      "train_r2": 0.7520193361446594,
+      "train_mae": 0.5856286142498841
     }
   },
   "best_model": "Random Forest",
   "scenario_impacts": {
-    "overall_impact": "-27.9%",
-    "us_china_impact": "-1.4%"
+    "overall_impact": "-28.9%",
+    "us_china_impact": "-1.7%"
   },
   "feature_importance": [
     {
       "feature": "us_china_pair",
-      "importance": 0.42275752913939113
+      "importance": 0.40705511397519617
     },
     {
       "feature": "economic_similarity",
-      "importance": 0.19053668273088564
+      "importance": 0.21004347609393542
     },
     {
       "feature": "gdp_differential",
-      "importance": 0.08123907972689268
-    },
-    {
-      "feature": "avg_tariff",
-      "importance": 0.06681071895890071
+      "importance": 0.09980885715734324
     },
     {
       "feature": "tariff_differential",
-      "importance": 0.06012114376915622
+      "importance": 0.07732195496715386
     },
     {
-      "feature": "c2_gdp_growth",
-      "importance": 0.04589370000829572
-    },
-    {
-      "feature": "c1_gdp_growth",
-      "importance": 0.03895772626629225
+      "feature": "avg_tariff",
+      "importance": 0.06555404473456455
     },
     {
       "feature": "c1_inflation",
-      "importance": 0.03157042369131197
+      "importance": 0.039151313449213535
     },
     {
-      "feature": "c1_tariff",
-      "importance": 0.01709565587118628
+      "feature": "c2_gdp_growth",
+      "importance": 0.02885079582822573
     },
     {
-      "feature": "c2_inflation",
-      "importance": 0.016690874736238592
+      "feature": "c1_gdp_growth",
+      "importance": 0.022743825599291872
+    },
+    {
+      "feature": "c1_unemployment",
+      "importance": 0.012746997458318064
+    },
+    {
+      "feature": "c2_tariff",
+      "importance": 0.011026884963976016
     }
   ],
   "countries_analyzed": [
